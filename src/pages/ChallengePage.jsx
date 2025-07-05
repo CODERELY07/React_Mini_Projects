@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import challenges from '../data/challenges';
-import Challenge1 from './challenges/challenge1';
+import Challenge1 from './challenges/Challenge1';
 
 const componentMap = {
   Challenge1: Challenge1,
