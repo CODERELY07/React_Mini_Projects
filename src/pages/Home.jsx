@@ -9,12 +9,20 @@ const Home = () => {
           My Small Projects in React
         </h2>
 
-        <div className="space-y-4">
+        <div className="space-y-4 my-2">
           <Link
             to="/counterApp"
             className="block w-full bg-blue-600 text-white font-semibold py-3 rounded-xl shadow hover:bg-blue-700 transition"
           >
             🚀 Counter App
+          </Link>
+        </div>
+        <div className="space-y-4 my-2">
+          <Link
+            to="/challengelist"
+            className="block w-full bg-blue-600 text-white font-semibold py-3 rounded-xl shadow hover:bg-blue-700 transition"
+          >
+            Challenges
           </Link>
           <p className="text-gray-500 text-sm">More projects coming soon...</p>
         </div>
