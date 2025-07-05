@@ -1,6 +1,6 @@
 import { Hand, Heart } from "lucide-react";
 import React, { useState } from "react";
-import  {motion}  from "framer-motion";
+
 import CodeDisplay from "../../components/CodeDisplay";
 import { challenge1 } from "../../data/challengeCode/challenge1";
 import InstallComponent from "../../components/InstallComponent";
@@ -114,28 +114,16 @@ const Challenge1 = () => {
           <ProfileCard />
           <HobbiesList hobbies={["Swimming", "Walking"]} />
           <div className="flex space-x-2">
-            <motion.div
-              whileTap={{ scale: 1.4, rotate: 20 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
                <Heart fill={heart ? "red" : "none"} onClick={heartToggle} className="cursor-pointer"/>
-            </motion.div>
-  
-           <motion.div
-              whileTap={{ scale: 1.4, rotate: 20 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
               <Hand
                 className="cursor-pointer text-blue-500"
                 onClick={addPoke}
               />
-              
-            </motion.div>
             {poke}
           </div>
    
         </div>
-          <InstallComponent datas={['npm install lucide', 'npm install motion']}/>
+          <InstallComponent datas={['npm install lucide']}/>
           <h2>Code:</h2>
           <CodeDisplay code={challenge1} />
 
