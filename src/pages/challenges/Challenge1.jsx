@@ -7,7 +7,7 @@ import InstallComponent from "../../components/InstallComponent";
 
 const Task = () => {
   return (
-    <div className="max-w-[1200px] w-full bg-white p-8 rounded-2xl shadow-lg space-y-6">
+    <div className="max-w-[1200px]  w-full bg-white p-8 rounded-2xl shadow-lg space-y-6">
       <h1 className="text-3xl font-bold text-blue-700 mb-4">🛠️ Your Task</h1>
       <p className="text-gray-800 text-lg">
         Build a small React app with the following features:
@@ -105,7 +105,7 @@ const Challenge1 = () => {
   }
 
   return (
-    <div className="min-h-screen  bg-gray-100 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen py-5 bg-gray-100 flex flex-col items-center justify-center">
       <Task />
       <div className="max-w-[1200px] mt-5 w-full bg-white p-8 rounded-2xl shadow-lg space-y-6">
         <h1>Output:</h1>
@@ -126,7 +126,6 @@ const Challenge1 = () => {
           <InstallComponent datas={['npm install lucide']}/>
           <h2>Code:</h2>
           <CodeDisplay code={challenge1} />
-
       </div>
 
     </div>

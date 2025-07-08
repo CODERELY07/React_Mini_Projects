@@ -9,6 +9,16 @@ const challenges = [
         'practice' : 'Practice: JSX + Props',
         'componentName' : 'Challenge1'
     },
+    {
+        'id': 2,
+        'level': 'Intermediate',
+        'title': 'Job Board Mini App',
+        'description': 'Build a job listing interface that displays a list of jobs, allows users to filter by location or job type, and favorite jobs they like. This challenge helps you practice component structure, state management, and basic filtering logic in React.',
+        'example': 'Example: Showing only Remote Full-Time jobs favorited by the user.',
+        'practice': 'Practice: useState + Component Composition + Filtering',
+        'componentName': 'Challenge2'
+    }
+
 ];
 
 export default challenges;

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "level": "Intermediate",
+    "title": "Job Board Mini App",
+    "details": [
+      "Build a job listing interface that displays a list of jobs.",
+      "Allow users to filter by location or job type.",
+      "Add a feature to saved jobs using  a star icon.",
+      "Use useState and component composition (Job, Filter, Card).",
+      "Filter jobs dynamically based on selected criteria."
+    ]
+  }
+]

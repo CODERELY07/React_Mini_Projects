@@ -13,7 +13,7 @@ const ChallengeList = () => {
         <p className="text-base mb-8 text-gray-600">
           This is my daily challenge. I code it from scratch without using Google or AI to improve my skills. However, I ask ChatGPT to help generate the challenge, and then I incorporate my own ideas into it.
         </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer lg:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer gap-3 lg:grid-cols-3">
             {challenges.map((data) => (
                 <CardComponent data={data} key={data.id} />
             ))}
